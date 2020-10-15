@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | Athletes</title>
+</head>
+<body style="font-family: monospace;">
+    <header>
+        <h1 style="text-align: center; text-transform: uppercase;">Athletes Registration Form</h1>
+    </header>
+    <div class="container" style="text-align: center; padding: 5px; background-color: grey;">
+        <h2>Kindly fill the form carefully to register for the Athletes category</h2>
+    <form action="/">
+         <div class="general">
+             <label for="name">First name: </label>
+             <input type="text" id="name" name="name">
+             <label for="name">Last name: </label>
+             <input type="text" id="name" name="name">
+             <br><br>
+             <label for="age">Age: </label>
+             <input type="number" id="age" name="age">
+             <br><br>
+             <label for="date">Date of Birth: </label>
+             <input type="date" id="date" name="date" value="2000-08-30" min="1999-07-03" max="2020-08-06" required>
+             <br><br>
+             <label for="origin">State of Origin: </label>
+             <input type="text" id="origin" name="origin">
+             <br><br>
+             <label for="nation">Nationality: </label>
+             <input type="text" id="nation" name="nation">
+             <br><br>
+             Gender:
+             <input type="radio" name="gender" value="male" id="gender">
+             <label for="gender">Male</label>
+             <input type="radio" name="gender" value="female" id="gender1">
+             <label for="gender1">Female</label><br><br>
+             <label for="email">Email Address: </label>
+             <input type="email" id="email" name="email">
+             <br><br>
+             <label for="username">Username: </label>
+             <input type="text" id="username" name="username">
+             <br><br>
+             <label for="password">Password: </label>
+             <input type="password" id="password" name="password">
+             <br><br>
+             <label for="tel">Phone Number: </label>
+             <input type="num" id="tel" name="tel" maxlength="15">
+             <br><br>
+             <input type="submit" value="Submit" id="btn">
+         </div>
+    </form>
+    </div>
+
+    <section class="log-in" style="background-color: palegoldenrod; padding: 5px;">
+        <div class="login">
+            <h2>Already registered? Login here</h2>
+            <label for="user">Username: </label>
+            <input type="text" id="user" name="user"><br><br>
+            <label for="password1">Password: </label>
+            <input type="password" id="password1" name="password1"><br><br>
+            <input type="submit" value="Log In" id="btn1" style="margin-left: 80px;">
+        </div>
+
+    </section>
