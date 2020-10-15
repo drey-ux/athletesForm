@@ -1,3 +1,6 @@
+Full Name: OYETADE,DAMILARE PETER
+Slack ID: drey
+
 Summary of Git and Github Videos by Tranversy
 
 1. How to Install Git on Windows, Linux, Debian and Mac
